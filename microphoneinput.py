@@ -1,6 +1,6 @@
 import azure.cognitiveservices.speech as speechsdk
 
-speech_key, service_region = "5189afd54eb94d67aa4e6e9add699a03", "francecentral"
+speech_key, service_region = "YourSubscriptionKey", "YourServiceRegion"
 #speech_recognition_language="es-ES"
 #speech_recognition_language="fr-FR"
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region, speech_recognition_language="es-ES")
